@@ -1,0 +1,23 @@
+Ar:
+  lr: 0.0009620551638036177
+  batch_size: 128
+  weight_decay: 2.0550345637540963e-05
+
+O2:
+  lr: 2.94e-3 #0.0029389095728573683
+  batch_size: 32 #8
+  weight_decay: 1.737720320769069e-06
+
+O2_init:
+  lr: 0.0029389095728573683
+  batch_size: 16 #32
+  weight_decay: 1.737720320769069e-06
+
+nn_arch:
+  neurons_per_layer: 20
+  layers: 2
+
+training:
+  epochs: 700
+  patience: 70 #20
+  l1_lambda: 1e-5
